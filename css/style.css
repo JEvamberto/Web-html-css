@@ -69,7 +69,7 @@ body {
 	background-size: 100% ;
 	height: 400px;
 	
-	
+	position: relative;
 	background-repeat: no-repeat;
 
 }
@@ -78,6 +78,7 @@ body {
 
 	color: #fafafa;
 	text-align: center;
+	
 	
 	
 
@@ -95,21 +96,25 @@ body {
 .slideShow #imgSetRigh{
 
 	background-color: black;
-	position: relative;
+	padding: 10px;
+	position: absolute;
 	top:0;
 	right: 0;
+	margin-top: 160px;
 	
 	
 
 	
 
 }
-#imgSetRight{
 
+.slideShow #imgSetLeft{
 
-
-}
-#imgSetLeft{
-
-
+	background-color: black;
+	padding: 10px;
+	position: absolute;
+	top:0;
+	left: 0;
+	margin-top: 160px;
+	
 }
