@@ -62,9 +62,54 @@ body {
 
 }
 
-.slideShow p{
+.slideShow section  {
+
+   
+	background-image: url('/home/jose/Dropbox/UFC 2019.1/Desenvolvimento para web/Trabalho/Trabalho-1/Web-html-css/img/bg_b.png');
+	background-size: 100% ;
+	height: 400px;
+	
+	
+	background-repeat: no-repeat;
+
+}
+
+.slideShow p {
+
+	color: #fafafa;
+	text-align: center;
+	
+	
+
+}
+
+#fraseMaior{
+	padding-top: 125px;
+	font-size: 100px;
+	font-weight: bold;
+
+
+
+}
+
+.slideShow #imgSetRigh{
+
+	background-color: black;
+	position: relative;
+	top:0;
+	right: 0;
+	
+	
 
 	
+
+}
+#imgSetRight{
+
+
+
+}
+#imgSetLeft{
 
 
 }
