@@ -2,7 +2,7 @@
 
 body {
 
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic';
 	font-weight:400;
 	background-color:#fafafa;
 }
@@ -57,7 +57,7 @@ body {
 #link-login{
 	color:white;
 	background-color: black;
-	text-transform: initial;
+	text-transform: initial;/*Ver isso aqui*/
 	border-radius: 20px;
 	padding: 5px 25px;
 	font-size: 15px;
@@ -179,9 +179,87 @@ body {
 .figura p {
 
 	font-size: 13px;
-	letter-spacing: 1px;
+	
 	line-height: 20px;
 }
 
 
 
+.textoImagem{
+
+	display: inline-block;
+	width: 450px;
+
+}
+
+.aprendaMais{
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.aprendaMais img{
+
+	height: 360px;
+	width: 400px;
+
+
+	
+}
+.aprendaMais h1{
+
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-align: left;
+	text-indent: 7px;
+	
+
+
+}
+
+.aprendaMais a{
+
+	background-color: black;
+	padding: 10px 60px 10px 30px;/*Acima direita baixo esquerda*/
+	text-transform:unset;
+	border-radius: 20px;
+	color: white;
+	background-image: url('../img/arrow_accordance.png');
+	background-repeat: no-repeat;
+	background-position-x: 155px;
+	background-position-y: 10px;
+	font-size: 17px;
+
+	
+
+
+
+}
+
+.aprendaMais p {
+
+	margin-bottom: 40px;
+	padding: 10px;
+	font-size:13px;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.rodaPe{
+ 
+	background-image: url('../img/bg_b.png');
+	
+	height: 300px;
+	width: 100%;
+
+
+
+}
+
+
+
+/*Tirar espaçamento entre as letras*/
