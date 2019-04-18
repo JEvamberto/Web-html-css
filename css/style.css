@@ -255,11 +255,30 @@ body {
 	
 	height: 300px;
 	width: 100%;
-
-
-
 }
 
 
 
-/*Tirar espaçamento entre as letras*/
+.links nav,ul{
+
+  display: inline-block;
+  color: #98a8b5;
+  margin:10px;
+  
+
+}
+
+.links h2{
+
+	color: white;
+	text-transform: uppercase;
+
+
+}
+
+.copy{
+
+	color:#306987
+}
+
+/*Tentar usar border em vez de hr*/
