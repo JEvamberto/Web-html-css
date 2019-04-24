@@ -255,6 +255,7 @@ body {
 	
 	height: 300px;
 	width: 100%;
+	
 }
 
 
@@ -263,22 +264,30 @@ body {
 
   display: inline-block;
   color: #98a8b5;
-  margin:10px;
+  margin: 50px 65px 30px 0px;/*Acima direita baixo esquerda*/
+  
   
 
+}
+
+.links nav ul li {
+
+	margin-bottom: 13px;
 }
 
 .links h2{
 
 	color: white;
 	text-transform: uppercase;
-
-
+	margin-bottom: 30px;
+	
 }
 
 .copy{
 
-	color:#306987
+	color:#98a8b5;
+	margin-top: 60px;
+	
 }
 
 /*Tentar usar border em vez de hr*/
