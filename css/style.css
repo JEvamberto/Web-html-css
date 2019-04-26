@@ -2,8 +2,7 @@
 
 body {
 
-	font-family: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic';
-	font-weight:400;
+	font-family: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic';	font-weight:400;
 	background-color:#fafafa;
 }
 
@@ -14,15 +13,18 @@ body {
 }
 .cabecalho {
 
-
+	
+	
 	position: relative;
+	
 
 
 }
 
-.cabecalho figure{
+.cabecalho figure img{
 
-	margin-top:15px; 
+	
+	padding: 20px 0px 20px 30px;/*Acima direita baixo esquerda*/
 
 
 }
@@ -106,6 +108,7 @@ body {
 	top:0;
 	right: 0;
 	margin-top: 160px;
+
 	
 	
 
@@ -143,6 +146,16 @@ body {
 	margin-bottom: 70px; 
 	
 
+}
+#ceo::after{
+
+	content: '  CEO';
+	font-weight: normal;
+}
+
+#ceo::before{
+
+	content: '- ';
 }
 
 .feature{
