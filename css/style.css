@@ -31,7 +31,6 @@ body {
 #menu{
 
 	display: inline;
-	float: right;
 	position: absolute;
 	top:0;
 	right: 0;
@@ -287,15 +286,16 @@ body {
   display: inline-block;
   color: #98a8b5;
   margin: 50px 65px 30px 0px;/*Acima direita baixo esquerda*/
-  
+
   
 
 }
 
-.links nav ul li {
+.links nav ul li  {
 
 	margin-bottom: 13px;
 }
+
 
 .links h2{
 
@@ -304,7 +304,11 @@ body {
 	margin-bottom: 30px;
 	
 }
-
+.links a{
+	text-transform: unset;
+	color:#98a8b5;
+	
+}
 .copy{
 
 	color:#98a8b5;
@@ -312,4 +316,3 @@ body {
 	
 }
 
-/*Tentar usar border em vez de hr*/
