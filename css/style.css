@@ -161,6 +161,13 @@ body {
 .feature{
 
 	text-align: center;
+	
+}
+
+#borda{
+	opacity: 50px;
+	border-top:solid 1px rgba(000,000,000,0.15);
+	border-bottom: solid 1px rgba(000,000,000,0.15);
 }
 
 .feature img{
@@ -252,6 +259,8 @@ body {
 
 }
 
+
+
 .aprendaMais p {
 
 	margin-bottom: 40px;
@@ -267,7 +276,7 @@ body {
 	background-image: url('../img/bg_b.png');
 	
 	height: 300px;
-	width: 100%;
+	background-size: 100%;
 	
 }
 
