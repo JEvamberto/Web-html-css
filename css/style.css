@@ -1,8 +1,9 @@
-/* USE FONT WEIGHT P/ SELECIONAR Light 200, Light 200 Italic, Bold 700, Normal 400 ou Normal 400 Italic */
+
 
 body {
 
-	font-family: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic';	font-weight:400;
+	font-family:' source sans pro', 'sans-serif' ;
+	font-weight: 400;
 	background-color:#fafafa;
 }
 
@@ -30,7 +31,6 @@ body {
 }
 #menu{
 
-	display: inline;
 	position: absolute;
 	top:0;
 	right: 0;
@@ -40,7 +40,7 @@ body {
 }
 .cabecalho li,a{
 
-	display: inline;/*Testar quais realmente faz o inline ou se são os dois*/
+	display: inline;
 	margin-right: 30px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -56,9 +56,10 @@ body {
 }
 
 #link-login{
+
 	color:white;
 	background-color: black;
-	text-transform: initial;/*Ver isso aqui*/
+	text-transform: initial;
 	border-radius: 20px;
 	padding: 5px 25px;
 	font-size: 15px;
@@ -75,7 +76,7 @@ body {
 	height: 400px;
 	
 	position: relative;
-	background-repeat: no-repeat;
+
 
 }
 
@@ -90,6 +91,7 @@ body {
 }
 
 #fraseMaior{
+	
 	padding-top: 125px;
 	font-size: 100px;
 	font-weight: bold;
@@ -104,14 +106,10 @@ body {
 	background-color: black;
 	padding: 10px;
 	position: absolute;
-	top:0;
-	right: 0;
-	margin-top: 160px;
-
-	
+	top:160px;
+	right: 0px;
 	
 
-	
 
 }
 
@@ -120,9 +118,9 @@ body {
 	background-color: black;
 	padding: 10px;
 	position: absolute;
-	top:0;
-	left: 0;
-	margin-top: 160px;
+	top:160px;
+	left: 0px;
+	
 	
 }
 
@@ -181,13 +179,13 @@ body {
 	width: 300px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	text-align: center;
+	
 
 }
 
 .figura figcaption{
 
-	text-align: center;
+
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 30px;
@@ -198,8 +196,8 @@ body {
 .figura p {
 
 	font-size: 13px;
-	
 	line-height: 20px;
+	
 }
 
 
@@ -208,7 +206,6 @@ body {
 
 	display: inline-block;
 	width: 450px;
-
 }
 
 .aprendaMais{
@@ -251,10 +248,6 @@ body {
 	background-position-x: 155px;
 	background-position-y: 10px;
 	font-size: 17px;
-
-	
-
-
 
 }
 
